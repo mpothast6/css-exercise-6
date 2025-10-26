@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Herps Flexbox</title>
+        <link href="herp.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <header class="header">
+        <h1>Pets</h1>
+        <p>Everyone's best friends</p>
+        <ul class="main-nav">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="">Dogs</a>
+            </li>
+
+            <li>
+                <a href="">Cats</a>
+            </li>
+
+            <li>
+                <a href="">Fish</a>
+            </li>
+            </ul>
+            </header>
+        
+            <div class="content">
+        <aside class="side">
+            <h1>Quick Links for Herps</h1>
+            <ul>
+                <li>
+                    <a href="">Snakes</a>
+                </li>
+
+                <li>
+                    <a href="">Lizards</a>
+                </li>
+
+                <li>
+                    <a href="">Turtles</a>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="main">
+            <h1>About Herps</h1>
+            <p>This page is about herps.</p>
+            <p>This page is using display: flex to create the two-column sidebar in a fixed-width layout. To create this layout you need to add:</p>
+            <ul>
+                <li>All the proper layout ids (banner, menu, sidebar, colophon) added to their proper tags</li>
+                <li>A div to create the livespace with the id of wrapper</li>
+                <li>A div to create the "flex container" which encompasses the aside and the main as the two columns</li>
+                <li>Set widths in sidebar and main that equal 100%, then us gap property in the flex container to create a space between them.</li>
+            </ul>
+            <p><strong>Important!</strong> To put the sidebar on the right, you can just change the flex-direction in your flexbox to reverse the order in CSS. No need to change the order in your markup.</p>
+            <p>Herps, or reptiles and amphibians, can make fun and engaging pets. Learn more about them here!</p>
+        </main>
+        </div>
+
+        <footer class="footer">
+        <div>
+            <ul>
+                <li>
+                    <a href="">Facebook</a>
+                </li>
+                <li>
+                    <a href="">Instagram</a>
+                </li>
+                <li>
+                    <a href="">Twitter</a>
+                </li>
+            </ul>
+        </div>
+        </footer>
+    </body>
+</html>
